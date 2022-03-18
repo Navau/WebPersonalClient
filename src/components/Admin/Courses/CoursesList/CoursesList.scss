@@ -1,0 +1,27 @@
+@import "../../../../scss/index.scss";
+
+.courses-list {
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+
+  &__items {
+    background-color: $background-light;
+    padding: 10px 20px;
+
+    .ant-list-item {
+      display: flex;
+      align-items: center;
+      &:hover {
+        width: 100%;
+        background-color: rgb(0, 0, 0, 0.1) !important;
+        border: 1px solid #e2e2e2;
+        transition: 0.2s padding;
+        cursor: pointer;
+      }
+    }
+  }
+}

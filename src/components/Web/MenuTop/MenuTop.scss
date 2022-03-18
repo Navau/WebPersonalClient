@@ -1,0 +1,30 @@
+@import "../../../scss/index.scss";
+
+.menu-top-web {
+  position: sticky;
+  top: 0;
+  background-color: $background-dark-web !important;
+  border: 0 !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  li {
+    border: 0 !important;
+
+    a {
+      color: #fff !important;
+      font-weight: bold;
+      &:hover {
+        color: $primary-color !important;
+      }
+    }
+  }
+
+  &__logo {
+    padding: 10px;
+    img {
+      width: 200px;
+    }
+  }
+}
